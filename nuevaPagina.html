@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi experiencia con la IA - Reflexiones y Creatividad</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f8fb; color: #333; margin: 0; }
+    header { background: #388e3c; color: #fff; padding: 2rem 1rem; text-align: center; }
+    h1 { margin: 0 0 0.5em 0; }
+    nav { background: #a5d6a7; padding: 0.5em 0; text-align: center; }
+    nav a { color: #388e3c; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 900px; margin: 2rem auto; background: #fff; border-radius: 10px; box-shadow: 0 4px 16px #0001; padding: 2rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 { color: #388e3c; border-left: 5px solid #8d6e63; padding-left: 0.5em; }
+    ul { padding-left: 1.2em; }
+    .img-ia { display: flex; justify-content: center; margin: 1.5em 0; }
+    .img-ia img { border-radius: 12px; box-shadow: 0 2px 12px #0002; max-width: 350px; width: 100%; }
+    .links-list a { display: block; margin-bottom: 0.5em; color: #388e3c; }
+    .links-list a:hover { text-decoration: underline; }
+    .carrusel { display: flex; gap: 1em; overflow-x: auto; margin: 1em 0; }
+    .carrusel img { height: 120px; border-radius: 8px; }
+    .test-ia { background: #d7ccc8; padding: 1em; border-radius: 8px; margin: 1em 0; }
+    .test-ia button { background: #388e3c; color: #fff; border: none; padding: 0.5em 1.2em; border-radius: 5px; cursor: pointer; }
+    .test-ia button:hover { background: #8d6e63; }
+    footer { text-align: center; color: #888; margin: 2em 0 1em 0; }
+  </style>
+  <script>
+    // Mini test interactivo
+    function mostrarResultado() {
+      const r = document.querySelector('input[name="pregunta1"]:checked');
+      const res = document.getElementById('resultado-test');
+      if (!r) {
+        res.textContent = "Por favor selecciona una respuesta.";
+        res.style.color = "#c00";
+        return;
+      }
+      if (r.value === "b") {
+        res.textContent = "¡Correcto! La IA puede analizar grandes volúmenes de datos rápidamente.";
+        res.style.color = "#388e3c";
+      } else {
+        res.textContent = "No es correcto. Intenta de nuevo.";
+        res.style.color = "#c00";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-robot"></i> Mi experiencia con la Inteligencia Artificial</h1>
+    <p>Reflexiones, aprendizajes y creatividad en el mundo de la IA</p>
+  </header>
+  <nav>
+    <a href="#experiencia">Mi experiencia</a>
+    <a href="#reflexiones">Reflexiones</a>
+    <a href="#links">Links útiles</a>
+    <a href="#creatividad">Creatividad IA</a>
+  </nav>
+  <main>
+    <section id="experiencia">
+      <h2>Mi experiencia en el curso de IA</h2>
+      <p>
+        Durante este curso he descubierto el enorme potencial de la inteligencia artificial en la educación y en la vida cotidiana. He aprendido a crear páginas web, generar imágenes y videos, y a utilizar herramientas de IA para resolver problemas y potenciar mi creatividad. La posibilidad de interactuar con asistentes inteligentes y de automatizar tareas me ha motivado a seguir explorando este fascinante campo.
+      </p>
+      <div class="img-ia">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Imagen inspiradora IA">
+      </div>
+    </section>
+    <section id="reflexiones">
+      <h2>Reflexiones sobre la IA</h2>
+      <ul>
+        <li><strong>¿Qué cosas me sorprenden?</strong> La capacidad de la IA para aprender, adaptarse y generar contenido creativo, como imágenes, textos y hasta música. Me asombra cómo puede analizar grandes volúmenes de datos y encontrar patrones útiles en segundos.</li>
+        <li><strong>¿Qué me preocupa?</strong> El uso irresponsable de la IA, la desinformación y la posible pérdida de empleos. Sugiero que se promueva la ética, la transparencia y la educación digital para un mejor futuro.</li>
+        <li><strong>Mis retos personales:</strong> Adaptarme al ritmo acelerado de los cambios tecnológicos, aprender a programar y mantenerme actualizado. La clave es la curiosidad y la práctica constante.</li>
+      </ul>
+      <blockquote style="background:#f5f5dc; border-left:4px solid #388e3c; padding:1em; border-radius:8px;">
+    “Never summon a power you can’t control.” Yuval Noah Harari advierte que la IA es una tecnología sin precedentes, capaz de tomar decisiones y crear ideas por sí misma, lo que representa un riesgo para la democracia y la cooperación global.<br>
+    <img src="https://i.guim.co.uk/img/media/918dbc135c70c03e0b2739e1d87bfe06516d86e5/152_3049_4736_2840/master/4736.jpg?width=1900&dpr=1&s=none&crop=none" alt="Yuval Noah Harari" style="max-width:200px; display:block; margin:1em auto;">
+    <br>
+    <small>Extracto y foto de: <a href="https://www.theguardian.com/technology/article/2024/aug/24/yuval-noah-harari-ai-book-extract-nexus" target="_blank">Yuval Noah Harari, The Guardian, 2024</a></small>
+  </blockquote>
+  <blockquote style="background:#f5f5dc; border-left:4px solid #388e3c; padding:1em; border-radius:8px;">
+    "Si la única herramienta que tienes es un martillo, verás todos los problemas como clavos" .<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/18QBF0LifbY?si=YJPp5l3jbY6MA9gD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <small>Video de: <a href="https://www.youtube.com/embed/18QBF0LifbY?si=YJPp5l3jbY6MA9gD" target="_blank">Las claves educativas en la era de la inteligencia artificial. Kai-Fu Lee, experto IA</a></small>
+  </blockquote>
+    </section>
+    <section id="links">
+      <h2>Links útiles y páginas recomendadas</h2>
+      <div class="links-list">
+        <a href="https://guidogp122.github.io/agro-web3/" target="_blank"><i class="fas fa-link"></i> Mi página personal (Módulo 2)</a>
+        <a href="https://emersonuan.github.io/firstwebpage/" target="_blank"><i class="fas fa-link"></i> Página de ejemplo de EmersonUAN</a>        
+        <a href="https://cloud.google.com/learn/training/machinelearning-ai" target="_blank"><i class="fas fa-link"></i> Aprende IA con Google</a>
+        <a href="https://www.youtube.com/@jasp" target="_blank"><i class="fas fa-link"></i> Youtuber: Raul Ordoñez - Inteligencia Artificial </a>        
+      </div>
+    </section>
+    <section id="creatividad">
+      <h2>Creatividad y progreso con IA</h2>
+      <h3>Ideas creativas para usar IA en educación</h3>
+      <ul>
+        <li>Creación de asistentes virtuales personalizados para estudiantes.</li>
+        <li>Generación automática de ejercicios y tests adaptativos.</li>
+        <li>Visualización de datos educativos con gráficos interactivos.</li>
+        <li>Simulaciones y laboratorios virtuales con IA.</li>
+      </ul>
+      <h3>Imágenes generadas con IA</h3>
+      <div class="carrusel">
+        <img src="https://placehold.co/200x120?text=Robot+Agro" alt="Robot Agro IA">
+        <img src="https://placehold.co/200x120?text=Paisaje+Futuro" alt="Paisaje IA">
+        <img src="https://placehold.co/200x120?text=Creatividad+IA" alt="Creatividad IA">
+      </div>
+      <h3>Mini test interactivo sobre IA</h3>
+      <div class="test-ia">
+        <p><strong>¿Cuál es una de las principales ventajas de la IA en la educación?</strong></p>
+        <label><input type="radio" name="pregunta1" value="a"> Puede reemplazar a todos los profesores</label><br>
+        <label><input type="radio" name="pregunta1" value="b"> Analiza datos y personaliza el aprendizaje</label><br>
+        <label><input type="radio" name="pregunta1" value="c"> Hace que los estudiantes no estudien</label><br>
+        <button onclick="mostrarResultado()">Ver resultado</button>
+        <div id="resultado-test" style="margin-top:0.7em;"></div>
+      </div>
+      <h3>Video generado con IA</h3>
+      <video src="video01.mp4" controls poster="https://placehold.co/300x180?text=Video+IA"></video>
+      <p style="font-size:0.9em; color:#888;">(Puedes subir tu video generado con IA a tu repositorio y enlazarlo aquí)</p>
+    </section>
+    <section>
+      <h2>Textos inspiradores</h2>
+      <blockquote style="background:#f5f5dc; border-left:4px solid #388e3c; padding:1em; border-radius:8px;">
+        "La inteligencia artificial no reemplazará a los maestros, pero los maestros que usen IA reemplazarán a los que no lo hagan."
+      </blockquote>
+    </section>    
+  </main>
+  <footer>
+    &copy; 2024 Mi experiencia con la IA | Creado para el curso de Robótica y Educación
+  </footer>
+</body>
+</html>
